@@ -1,0 +1,14 @@
+table .sort {
+    background-repeat: no-repeat;
+    background-position: 40px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+table .sort.asc {
+    background-image: url(img/icon_down_sort_arrow.png);
+}
+
+table .sort.desc {
+    background-image: url(img/icon_up_sort_arrow.png);
+}

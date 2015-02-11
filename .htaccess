@@ -1,0 +1,4 @@
+AuthUserFile "/var/www/maformationofficinale/.htpasswd"
+AuthName "Accès Restreint"
+AuthType Basic
+require valid-user
